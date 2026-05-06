@@ -8,6 +8,7 @@
     <meta name="description"
         content="Conner Monson's WDD 131 course homepage. Featuring assignments, projects, and web development practice.">
     <meta name="author" content="Conner Monson">
+    <script defer type="module" src="scripts/getdates.js"></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,12 +47,14 @@
                         climb, and
                         read books. I also love playing sports. Some of the sports that I have played are: baseball,
                         football, soccer, rugby, track, swimming, diving, and a few more. Last year I ran a marathon
-                        without training, and it took 6 hours and 30 minutes. I love being active if you can't already
-                        tell.</p>
+                        without training, and it took 6 hours and 30 minutes.</p>
                 </div>
                 <h3>Texas, USA</h3>
                 <div class="about-texas">
-                    <img src="images/texas-flag.jpg" alt="texas flag">
+                    <figure>
+                        <img src="images/texas-flag.jpg" alt="texas flag">
+                        <figcaption>State Flag of Texas</figcaption>
+                    </figure>
                     <p>Texas is the second-largest state in the United States, located in the South. Its capital is
                         Austin, and
                         major cities include Houston, Dallas, and San Antonio. Historically, Texas was an independent
@@ -76,8 +79,8 @@
         </div>
     </main>
     <footer>
-        <p>© 🇺🇸 Conner Monson 🇺🇸 Texas, USA</p>
-        <span id="current-year"></span>
+        <p>©<span id="currentyear"></span> 🇺🇸 Conner Monson 🇺🇸 Texas, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>
 
