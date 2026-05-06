@@ -38,6 +38,10 @@ nav a {
     font-family: var(--header-font);
 }
 
+nav a:hover {
+    border-bottom: 2px solid var(--primary-color);
+}
+
 h1 {
     font-family: var(--header-font);
     display: block;
