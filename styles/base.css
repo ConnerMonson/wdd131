@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header span {
+    font-family: "Black Ops One", system-ui;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(139, 126, 53);
+}
+
+nav {
+    background-color: rgb(26, 25, 25);
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Black Ops One", system-ui;
+}
+
+h1 {
+    font-family: "Black Ops One", system-ui;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.card{
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.bio, .resources {
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.bio h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.bio {
+    flex: 2;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem;
+}
+
+.about-me img {
+    width: 150px;
+}
+
+.about-texas {
+    margin: 1rem;
+    display: flex;
+}
+
+.about-texas img {
+    border: 1px solid black;
+    width: 200px;
+}
+
+.about-texas p {
+    margin: 1rem;
+
+}
+
+.resources {
+    flex: 1;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 1rem;
+}
+
+.resources ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem;
+
+}
+
+.resources li {
+    padding: 3px;
+}
+
+h2 {
+    padding: .5rem;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgb(139, 126, 53);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(139, 126, 53);
+}
