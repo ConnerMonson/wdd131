@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: rgb(139, 126, 53);
+    --primary-color: rgb(52, 80, 7);
     --accent-color: rgb(26, 25, 25);
     --header-font: "Black Ops One", system-ui;
     --paragraph-font: "Roboto", sans-serif;
@@ -18,6 +18,7 @@ header span {
     text-align: center;
     font-size: 2rem;
     background-color: var(--primary-color);
+    color: white;
 }
 
 nav {
@@ -50,20 +51,21 @@ h1 {
     font-size: 3rem;
 }
 
-.card{
-    display: flex;
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     margin: 2rem;
     padding: 1rem;
 }
 
 .bio, .resources {
-    border: 1px solid black;
+    border: 1px solid var(--accent-color);
     border-radius: 16px;
 }
 
 .bio h3 {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--accent-color);
     font-family: var(--paragraph-font)
 }
 
@@ -81,6 +83,8 @@ h1 {
 .about-me img {
     width: 150px;
     margin: 1rem;
+    border-radius: 3px;
+    border: 1px solid var(--accent-color);
 }
 
 .about-texas {
@@ -90,7 +94,7 @@ h1 {
 }
 
 .about-texas img {
-    border: 1px solid black;
+    border: 1px solid var(--accent-color);
     width: 200px;
 }
 
@@ -126,7 +130,8 @@ h1 {
 h2 {
     padding: .5rem;
     border-radius: 15px 15px 0px 0px;
-    background-color: rgb(139, 126, 53);
+    background-color: var(--primary-color);
+    color: white;
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
@@ -134,10 +139,13 @@ h2 {
 footer {
     display: block;
     text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 17px;
     padding: 1rem;
-    background-color: rgb(139, 126, 53);
+    background-color: var(--primary-color);
+    color: white;
 }
 
 #lastModified {
-    color: rgb(0, 0, 0);
+    color: white;
 }
