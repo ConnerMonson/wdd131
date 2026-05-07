@@ -7,8 +7,17 @@
 :root {
     --primary-color: rgb(52, 80, 7);
     --accent-color: rgb(26, 25, 25);
+
     --header-font: "Black Ops One", system-ui;
     --paragraph-font: "Roboto", sans-serif;
+}
+
+header {
+    display: block;
+}
+
+main {
+    display: grid;
 }
 
 header span {
@@ -22,7 +31,7 @@ header span {
 }
 
 nav {
-    background-color: rgb(26, 25, 25);
+    background-color: var(--accent-color);
 }
 
 nav ul{
@@ -40,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 h1 {
@@ -54,9 +63,12 @@ h1 {
 .cards {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin: 2rem;
+    margin: 0rem 2rem 2rem 2rem;
     padding: 1rem;
+
 }
+
+
 
 .bio, .resources {
     border: 1px solid var(--accent-color);
