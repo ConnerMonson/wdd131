@@ -43,7 +43,7 @@ nav ul{
 }
 
 nav a {
-    color: aliceblue;
+    color: white;
     text-decoration: none;
     font-family: var(--header-font);
 }
