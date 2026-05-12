@@ -1,6 +1,7 @@
 :root {
     --primary-color: rgb(52, 80, 7);
     --accent-color: rgb(26, 25, 25);
+    --font: 
 }
 
 * {
@@ -12,12 +13,14 @@
 header, main, footer {
     max-width: 640px;
     margin: 1rem auto;
+    font-family: "Roboto", sans-serif;;
 }
 
 header {
     background-color: var(--primary-color);
     padding: 1rem;
     position: relative;
+    min-width: 500px;
 }
 
 /* small view navigation */
@@ -25,7 +28,7 @@ header {
 	font-size: 2rem;
 	border: 0;
 	background: none;
-	color: #000;
+	color: #fff;
  	position: absolute;
 	top: 1rem;
 	right: 1rem;
