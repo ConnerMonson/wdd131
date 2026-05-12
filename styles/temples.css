@@ -21,6 +21,7 @@ header {
     padding: 1rem;
     position: relative;
     min-width: 500px;
+    color: white;
 }
 
 /* small view navigation */
