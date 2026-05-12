@@ -1,0 +1,99 @@
+:root {
+    --primary-color: rgb(52, 80, 7);
+    --accent-color: rgb(26, 25, 25);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    max-width: 640px;
+    margin: 1rem auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    position: relative;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 2rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: white;
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation.open a {
+    display: block;
+}
+
+.navigation a {
+	display: none;
+    padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+}
+
+header span {
+    font-size: 2rem;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+main figure {
+    margin: 1rem auto;
+}
+
+main figcaption {
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 17px;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#lastModified {
+    color: white;
+}
