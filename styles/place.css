@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(166, 13, 13);
+    --secondary-color: rgb(255,255,255);
+    --accent-color: rgb(44, 132, 36);
+}
+
+header, main, footer {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+header {
+    display: flex;
+    text-align: center;
+}
+
+header img {
+    border-bottom: 5px solid var(--primary-color);
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-bottom: 20px solid var(--accent-color);
+}
+
+h2 {
+    margin: 1rem;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 17px;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#lastModified {
+    color: white;
+}
