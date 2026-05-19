@@ -11,17 +11,23 @@
 }
 
 header, main, footer {
-    max-width: 700px;
+    max-width: 500px;
     margin: 0px auto;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
     display: flex;
+    flex-direction: column;
     text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
 }
 
-header img {
+.hero img {
     border-bottom: 5px solid var(--primary-color);
+    width: 100%;
 }
 
 h1 {
@@ -34,16 +40,49 @@ h1 {
 
 h2 {
     margin: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data-list, .weather-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+dt, dd {
+    font-size: 1.15rem;
+    margin: .5rem;
+}
+
+dt {
+    text-align: right;
+}
+
+.data {
+    border-bottom: 2px solid #eee;
+}
+
+.weather img {
+    width: 100px;
+    display: block;
+    margin: 0px auto;
 }
 
 footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-family: var(--paragraph-font);
     font-size: 17px;
     padding: 1rem;
     background-color: var(--primary-color);
     color: white;
+    width: 100%;
 }
 
 #lastModified {

@@ -9,59 +9,68 @@
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div class="hero">
             <h1>Hungary</h1>
-                <img src="images/budapest-hungary-large-mobile.webp" alt="Statue of Horseman in Budapest, Hungary">
-        </div>
     </header>
     <main>
-        <section class="data">
-            <h2>Data</h2>
-            <dl class="data-list">
-                <dt>Area:</dt>
-                <dd>93,030 sq km</dd>
+        <div class="hero">
+            <picture>
+                <source srcset="images/large-budapest.webp" media="(min-width: 700px)">
+                <img src="images/budapest-hungary-large-mobile.webp" alt="Statue of Horseman in Budapest, Hungary">
+            </picture>
+            
+            <section class="data">
+                <h2>Data</h2>
+                <dl class="data-list">
+                    <dt><strong>Area:</strong></dt>
+                    <dd>93,030 sq km</dd>
 
-                <dt>Population:</dt>
-                <dd>9.59 million</dd>
+                    <dt><strong>Population:</strong></dt>
+                    <dd>9.59 million</dd>
 
-                <dt>Capital:</dt>
-                <dd>Budapest</dd>
+                    <dt><strong>Capital:</strong></dt>
+                    <dd>Budapest</dd>
 
-                <dt>Language:</dt>
-                <dd>Hungarian</dd>
+                    <dt><strong>Language:</strong></dt>
+                    <dd>Hungarian</dd>
 
-                <dt>Currency:</dt>
-                <dd>Hungarian Forint</dd>
+                    <dt><strong>Currency:</strong></dt>
+                    <dd>Hungarian Forint</dd>
 
-                <dt>Time Zone:</dt>
-                <dd>UTC+1</dd>
+                    <dt><strong>Time Zone:</strong></dt>
+                    <dd>UTC+1</dd>
 
-                <dt>Calling Code:</dt>
-                <dd>+36</dd>
+                    <dt><strong>Calling Code:</strong></dt>
+                    <dd>+36</dd>
 
-                <dt>Internet TLD:</dt>
-                <dd>.hu</dd>
-            </dl>
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <dl class="weather-list">
-                <dt>Temperature:</dt>
-                <dd>17°C</dd>
+                    <dt><strong>Internet TLD:</strong></dt>
+                    <dd>.hu</dd>
+                </dl>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="images/partly-sunny-icon.svg" alt="partly sunny weather icon">
+                <dl class="weather-list">
+                    <dt><strong>Temperature:</strong></dt>
+                    <dd>17°C</dd>
 
-                <dt>Conditions:</dt>
-                <dd>Partly Sunny</dd>
+                    <dt><strong>Conditions:</strong></dt>
+                    <dd>Partly Sunny</dd>
 
-                <dt>Wind:</dt>
-                <dd>10 km/h</dd>
+                    <dt><strong>Wind:</strong></dt>
+                    <dd>10 km/h</dd>
 
-                <dt>Wind Chill:</dt>
-                <dd>THIS IS JAVASCRIPTß</dd>
-            </dl>
-        </section>
+                    <dt><strong>Wind Chill:</strong></dt>
+                    <dd>THIS IS JAVASCRIPTß</dd>
+                </dl>
+            </section>
+        </div>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> 🇺🇸 Conner Monson 🇺🇸 Texas, USA</p>
