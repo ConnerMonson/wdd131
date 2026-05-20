@@ -74,6 +74,10 @@ dt {
     margin: 0px auto;
 }
 
+.weather-icon p {
+    display: none;
+}
+
 footer {
     display: flex;
     flex-direction: column;
