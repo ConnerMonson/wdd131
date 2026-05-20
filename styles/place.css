@@ -28,6 +28,7 @@ header {
 .hero img {
     border-bottom: 5px solid var(--primary-color);
     width: 100%;
+    display: block;
 }
 
 h1 {
