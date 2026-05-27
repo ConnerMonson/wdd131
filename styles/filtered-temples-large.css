@@ -1,0 +1,48 @@
+@media  screen and (min-width:500px) {
+    header, main, footer {
+        max-width: 840px;
+        min-width: 840px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    header span {
+        align-content: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation a {
+        display: flex;
+    }
+
+    .navigation a:hover {
+        text-decoration: underline;
+        background-color: rgb(52, 80, 7);
+        color: white;
+    }
+
+    .res-grid {
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        grid-column: 1 / 4;
+    }
+}
+    
