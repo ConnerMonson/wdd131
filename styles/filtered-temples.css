@@ -17,6 +17,9 @@ header, main, footer {
 
 main {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header {
@@ -70,12 +73,6 @@ header {
 header span {
     font-size: 2rem;
     color: white;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 h1, h3, p{
