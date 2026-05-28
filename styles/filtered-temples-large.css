@@ -1,7 +1,7 @@
 @media  screen and (min-width:500px) {
-    header, main, footer {
+     main {
         max-width: 840px;
-        min-width: 840px;
+        min-width: 500px;
     }
 
     header {
@@ -30,9 +30,8 @@
     }
 
     .navigation a:hover {
-        text-decoration: underline;
         background-color: rgb(52, 80, 7);
-        color: white;
+        color: rgb(39, 246, 20);
     }
 
     .res-grid {

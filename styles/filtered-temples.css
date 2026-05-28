@@ -10,17 +10,19 @@
 }
 
 header, main, footer {
-    max-width: 640px;
     margin: 0rem auto;
     font-family: "Roboto", sans-serif;;
     min-width: 500px;
+}
+
+main {
+    padding: 1rem;
 }
 
 header {
     background-color: var(--primary-color);
     padding: 1rem;
     position: relative;
-    min-width: 500px;
     color: white;
 }
 
@@ -61,8 +63,8 @@ header {
 	font-weight: 700;
 }
 .navigation a:hover {
-	background-color: #bbb;
-	color: #333;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 header span {
@@ -104,7 +106,7 @@ section img {
 footer {
     display: block;
     text-align: center;
-    font-family: var(--paragraph-font);
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
     padding: 1rem;
     background-color: var(--primary-color);
