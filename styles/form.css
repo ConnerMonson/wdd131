@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(79, 81, 32);
+    background-color: rgb(18, 24, 71);
     text-align: center;
     padding: 1rem;
 }
@@ -31,7 +31,7 @@ fieldset {
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: .5rem 2%;
-    background-color: #d7ce92;
+    background-color: #b6b6b6;
     max-width: 800px;
     
 }
@@ -84,7 +84,7 @@ input[type="checkbox"]{
 
  input[type="submit"]{
     border: none;
-    background-color: rgb(79, 81, 32);
+    background-color: rgb(18, 24, 71);
     color: #ffffff;
     border-radius: 6px;
     width: 100%;
@@ -118,7 +118,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     padding: 1rem;
-    background-color: rgb(79, 81, 32);
+    background-color: rgb(18, 24, 71);
     color: #fff;
 }
 
