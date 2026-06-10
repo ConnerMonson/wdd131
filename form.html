@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Activity | WDD 131</title>
     <meta name="description" content="WDD 131 form activity focusing on designing forms that are easy to use.">
+    <meta name="author" content="Conner Monson">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
 </head>
@@ -15,53 +16,52 @@
     <main>
         <form action="review.html" method="get" >
             <fieldset>
-                <label>
-                    <div>Product Name*</div>
+                <label for="product">Product Name*
                     <select id="product" name="product" required>
-                        <option value="choice" disabled selected >Choose a product...</option>
+                        <option value="" disabled selected >Select a product...</option>
                     </select>
                 </label>
                 <div>Overall Rating*</div>
                 <div class="rating">
                     <label class="star-rating">
                         ★
-                        <input type="radio" name="star" value="1star" required>
+                        <input type="radio" name="star" id="star1" value="1" required>
                     </label>
                     <label class="star-rating">
                         ★★
-                        <input type="radio" name="star" value="2star">
+                        <input type="radio" name="star" id="star2" value="2" required>
                     </label>
                     <label class="star-rating">
                         ★★★
-                        <input type="radio" name="star" value="3star">
+                        <input type="radio" name="star" id="star3" value="3" required>
                     </label>
                     <label class="star-rating">
                         ★★★★
-                        <input type="radio" name="star" value="4star">
+                        <input type="radio" name="star" id="star4" value="4" required>
                     </label>
-                    <label class="star-rating">
+                    <label class="star-rating"> 
                         ★★★★★
-                        <input type="radio" name="star" value="5star">
+                        <input type="radio" name="star" id="star5" value="5" required>
                     </label>
                 </div>
-                <label>
-                    <div>Date of Installation*</div>
+                <label for="installation">Date of Installation*
                     <input type="date" name="installation" id="installation" required>
                 </label>
-                <div>Which features did you find useful in the product (Check all that apply)</div>
-                <label><input type="checkbox" name="durable" id="durable">Durability</label>
-                <label><input type="checkbox" name="easyUse" id="easyUse">Ease of Use</label>
-                <label><input type="checkbox" name="performance" id="performance">Performance</label>
-                <label><input type="checkbox" name="design" id="design">Design</label>
 
-                <label>
-                    <div>Written Review <span>(Optional)</span></div>
+                <div>Which features did you find useful in the product (Check all that apply)</div>
+                <label for="durable"><input type="checkbox" name="durable" id="durable">Durability</label>
+                <label for="easyUse"><input type="checkbox" name="easyUse" id="easyUse">Ease of Use</label>
+                <label for="performance"><input type="checkbox" name="performance" id="performance">Performance</label>
+                <label for="design"><input type="checkbox" name="design" id="design">Design</label>
+
+                <label for="writtenReview">
+                    Written Review <span>(Optional)</span>
                     <textarea name="review" id="writtenReview" rows="5"></textarea>
                 </label>
 
                 
-                <label>
-                    <div>Your Name <span>(Optional)</span></div>
+                <label for="userName">
+                    Your Name <span>(Optional)</span>
                     <input type="text" name="name" id="userName">
                 </label>
 
