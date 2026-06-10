@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(121, 123, 70);
+    background-color: rgb(79, 81, 32);
     text-align: center;
     padding: 1rem;
 }
@@ -39,6 +39,10 @@ fieldset {
 legend{
     color: #000000;
     padding: 0 .5rem;
+}
+
+h1{
+    color: #fff;
 }
 
 label {
@@ -80,8 +84,8 @@ input[type="checkbox"]{
 
  input[type="submit"]{
     border: none;
-    background-color: rgb(121, 123, 70);
-    color: #000000;
+    background-color: rgb(79, 81, 32);
+    color: #ffffff;
     border-radius: 6px;
     width: 100%;
     padding: .8rem;
@@ -101,7 +105,11 @@ input[type="checkbox"]{
 }
 
 span {
-    color: #445ba9;
+    color: #0b107b;
+}
+
+footer span {
+    color: #fff;
 }
 
 footer {
@@ -110,8 +118,8 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     padding: 1rem;
-    background-color: rgb(121, 123, 70);
-    color: white;
+    background-color: rgb(79, 81, 32);
+    color: #fff;
 }
 
 .reviews {
