@@ -5,9 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Activity | WDD 131</title>
     <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/form.js"></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action=review.html method="get" >
+            <fieldset>
+                <div>Product Name</div>
+                <label>
+                    <select id="product" name="product">
+                        <option value="choice" disabled selected >Choose a product...</option>
+                    </select>
+                </label>
+                <div>Overall Rating</div>
+                <div class="rating">
+                    <label class="star-rating">
+                        ★
+                        <input type="radio" name="star" id="1star" required>
+                    </label>
+                    <label class="star-rating">
+                        ★★
+                        <input type="radio" name="star" id="2star">
+                    </label>
+                    <label class="star-rating">
+                        ★★★
+                        <input type="radio" name="star" id="3star">
+                    </label>
+                    <label class="star-rating">
+                        ★★★★
+                        <input type="radio" name="star" id="4star">
+                    </label>
+                    <label class="star-rating">
+                        ★★★★★
+                        <input type="radio" name="star" id="5star">
+                    </label>
+                </div>
+                <div>Date of Installation</div>
+                <label><input type="date" name="installation"></label>
+                <div>Which features did you find useful in the product (Check all that apply)</div>
+                <label><input type="checkbox" name="durable" id="durable">Durability</label>
+                <label><input type="checkbox" name="easyUse" id="easyUse">Ease of Use</label>
+                <label><input type="checkbox" name="performance" id="performance">Performance</label>
+                <label><input type="checkbox" name="design" id="design">Design</label>
+
+                <div>Written Review <span>(Optional)</span></div>
+                <label><textarea name="review" id="writtenReview" rows="5"></textarea></label>
+
+                <div>Your Name <span>(Optional)</span></div>
+                <label><input type="text" name="name" id="userName"></label>
+
+                <input type="submit" value="Post Review">
+            </fieldset>
+            
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🇺🇸 Conner Monson 🇺🇸 Texas, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>

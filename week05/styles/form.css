@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(121, 123, 70);
+    text-align: center;
+    padding: 1rem;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+form {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+fieldset {
+    margin: 2rem auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    background-color: #d7ce92;
+    max-width: 800px;
+    
+}
+
+legend{
+    color: #000000;
+    padding: 0 .5rem;
+}
+
+label {
+    display: block;
+    color: #9c2d13;
+    font-size: 1rem;
+}
+
+div {
+    margin-top: 1rem;
+    color: #000000;
+    font-size: 1.25rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="url"],
+input[type="select"],
+input[type="number"],
+select,
+textarea
+ {
+    background-color: #eee;
+    display: block;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #000000;
+    width: 100%;
+    max-width: 500px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 6px;
+}
+
+ input[type="submit"]{
+    border: none;
+    background-color: rgb(121, 123, 70);
+    color: #000000;
+    border-radius: 6px;
+    width: 100%;
+    padding: .8rem;
+    max-width:500px;
+    margin-top: 1rem;
+}
+
+.rating {
+    margin: 0px;
+}
+
+.star-rating {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+span {
+    color: #445ba9;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    padding: 1rem;
+    background-color: rgb(121, 123, 70);
+    color: white;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews h2 {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.reviews p {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
