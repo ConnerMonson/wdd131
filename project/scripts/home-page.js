@@ -58,43 +58,44 @@ specContainer.innerHTML = specs.map(spec => {
 }).join("");
 
 
+
 // Responsive Gallery
 const galleryImages = [ 
     {
         src: "images/gallery-photo-one.jpg",
-        alt: "This is a car"
+        alt: "Lamborghini Aventador Interior"
     },
     {
         src: "images/gallery-photo-two.jpg",
-        alt: "asd"
+        alt: "rear view of Lamborghini Aventador"
     },
     {
         src: "images/gallery-photo-three.webp",
-        alt: "asd"
+        alt: "Lamborghini Aventador tail light"
     },
     {
         src: "images/gallery-photo-four.jpg",
-        alt: "asd"
+        alt: "Lamborghini Aventador SVJ logo"
     },    
     {
         src: "images/gallery-photo-five.jpg",
-        alt: "sdf"
+        alt: "Lamborghini Aventador tail light"
     },
     {
         src: "images/gallery-photo-six.jpg",
-        alt: "sdf"
+        alt: "Engine of Lamborghini Aventador"
     },
     {
         src: "images/gallery-photo-seven.jpg",
-        alt: "sdf"
+        alt: "Lamborghini Aventador tail lights"
     },
     {
         src: "images/gallery-photo-eight.jpg",
-        alt: "asdf"
+        alt: "Lamborghini Aventador back end"
     },
     {
         src: "images/gallery-photo-nine.jpg",
-        alt: "asdf"
+        alt: "Blue Lamborghini Aventador "
     },
 ];
 
