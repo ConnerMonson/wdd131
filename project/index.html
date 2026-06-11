@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ExoticRides</title>
+    <meta name="author" content="Conner Monson">
+    <meta name="description" content="A website focused on giving information about the lamborghini aventador.">
     <link rel="stylesheet" href="styles/final-project.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-
+    <script src="scripts/home-page.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,9 +24,9 @@
                 <img src="images/" alt="">
             </div>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Interior</a></li>
-                <li><a href="">Exterior</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="exterior.html">Exterior</a></li>
             </ul>
         </nav>
     </header>
@@ -47,8 +48,23 @@
                     dignissimos nobis quaerat est!</p>
             </div>
         </section>
+        <div class="popup">
+            <div class="popup-content">
+                <button id="closeBtn">X</button>
+
+                <h2>Stay in the Fast Lane</h2>
+                <p>Sign up to be the first to recieve more content about the Lamborghini Aventador</p>
+
+                <form id="newsletter-form">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
         <section class="specs">
-            <h2>Specs</h2>
+                <h2>Specs</h2>
             <div class="spec-facts">
                 <div class="speed">
                     <h3>217 MPH</h3>
@@ -64,21 +80,62 @@
                 </div>
             </div>
         </section>
+        <section class="interior">
+            <img src="images/interior-home-page.jpg" alt="steering wheel">
+            <div class="interior-text">
+                <h2>Interior</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas sit ullam porro dolorem facere
+                    possimus ad eveniet nulla libero, earum itaque architecto animi. Molestias, veritatis laborum. Quas
+                    aspernatur quasi voluptas quo, reprehenderit adipisci quia eligendi eveniet neque fugit hic consequatur
+                    tenetur perferendis placeat omnis temporibus rerum accusamus vero exercitationem. Libero aliquid commodi
+                    est quod asperiores, quam possimus quos molestiae nisi iusto odit nam minus quasi dicta veniam saepe
+                    velit sint eos! Corrupti perspiciatis nisi, ex accusantium consequatur beatae totam veniam consequuntur
+                    doloribus molestiae veritatis sit provident eaque. Ut fugit explicabo maiores nemo officia nesciunt ex
+                    dignissimos nobis quaerat est!</p>
+                <div class="button">
+                    <a href="interior.html">Explore Interior</a>
+                </div>
+            </div>
+        </section>
+        <section class="exterior">
+            <img src="images/index/exterior-home-page.jpg" alt="steering wheel">
+            <div class="exterior-text">
+                <h2>Exterior</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas sit ullam porro dolorem facere
+                    possimus ad eveniet nulla libero, earum itaque architecto animi. Molestias, veritatis laborum. Quas
+                    aspernatur quasi voluptas quo, reprehenderit adipisci quia eligendi eveniet neque fugit hic consequatur
+                    tenetur perferendis placeat omnis temporibus rerum accusamus vero exercitationem. Libero aliquid commodi
+                    est quod asperiores, quam possimus quos molestiae nisi iusto odit nam minus quasi dicta veniam saepe
+                    velit sint eos! Corrupti perspiciatis nisi, ex accusantium consequatur beatae totam veniam consequuntur
+                    doloribus molestiae veritatis sit provident eaque. Ut fugit explicabo maiores nemo officia nesciunt ex
+                    dignissimos nobis quaerat est!</p>
+                <div class="button">
+                    <a href="exterior.html">Explore Exterior</a>
+                </div>
+            </div>
+        </section>
         <section class="gallery">
             <h2>Gallery</h2>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+
+            <div class="gallery-photos">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-two.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+
+                <!-- Duplicates -->
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+                <img src="images/gallery-photo-one.jpg" alt="Lamborghini back" loading="lazy">
+            </div>
         </section>
     </main>
     <footer>
+        <p>©<span id="currentyear"></span> | ExoticRides | Conner Monson</p>
     </footer>
 </body>
 
-</html>
+</html> 
