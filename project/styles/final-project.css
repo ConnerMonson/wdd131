@@ -36,7 +36,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: var(--background-color);
-    padding: 2.5rem 2rem;
+    padding: 0px 2rem;
     border-bottom: 1px solid var(--accent-color);
 }
 
@@ -63,6 +63,12 @@ a{
 
 a:hover {
     color: var(--accent-color);
+}
+
+.logo img {
+    max-width: 200px;
+    max-height: auto;
+    margin: 0px;
 }
 
 h2 {
@@ -108,7 +114,7 @@ h2 {
 
 .button {
     margin: 2rem;
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     border-radius: 10px;
     border: 1px solid var(--accent-color);
     width: fit-content;
@@ -119,7 +125,7 @@ h2 {
     padding: 1rem;
 }
 
-.specs h2 {
+.spec h2 {
     background-color: var(--secondary-color);
     border-bottom: 1px solid var(--primary-color);
     padding: 1rem;
@@ -130,15 +136,25 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 10rem;
-
+    gap: 2rem;
+    text-align: center;
 }
 
-.spec-facts h3 {
+.spec-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.spec-card h3 {
     font-size: 6rem;
     text-align: center;
 }
 
-.spec-facts p {
+.spec-card p {
     text-align: center;
 }
 
@@ -171,6 +187,7 @@ footer {
     display: block;
     text-align: center;
     background-color: var(--secondary-color);
+    border-top: 1px solid var(--accent-color);
     padding: 2rem;
 }
 
