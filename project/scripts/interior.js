@@ -11,7 +11,7 @@ const galleryImages = [
     },
     {
         src: "images/gallery-photo-three.webp",
-        alt: "Lamborghini Aventador tail light"
+        alt: "rear taillight design on a Lamborghini Aventador"
     },
     {
         src: "images/gallery-photo-four.jpg",
@@ -19,7 +19,7 @@ const galleryImages = [
     },    
     {
         src: "images/gallery-photo-five.jpg",
-        alt: "Lamborghini Aventador tail light"
+        alt: "Close up of a Lamborghini aventador taillight"
     },
     {
         src: "images/gallery-photo-six.jpg",
@@ -27,7 +27,7 @@ const galleryImages = [
     },
     {
         src: "images/gallery-photo-seven.jpg",
-        alt: "Lamborghini Aventador tail lights"
+        alt: "Black Lamborghini Aventador spoiler"
     },
     {
         src: "images/gallery-photo-eight.jpg",

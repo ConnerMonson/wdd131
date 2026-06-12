@@ -3,18 +3,16 @@ const currentYear = new Date().getFullYear();
 document.getElementById("currentyear").innerHTML = currentYear;
 
 // Newsletter Popup
-setTimeout(() => {
-    document.querySelector('.popup').classList.add('show');
-}, 5000);
-
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('#closeBtn');
 const form = document.querySelector('#newsletter-form');
 
-if (!localStorage.getItem('subscribed')) {
-    setTimeout(() => {
-        popup.classList.add('show');
-    }, 5000);
+function showPopup(){
+    popup.classList.add('show');
+}
+
+if (!localStorage.getItem('subscribed')){
+    setTimeout(showPopup, 5000);
 }
 
 closeBtn.addEventListener('click', () =>{
